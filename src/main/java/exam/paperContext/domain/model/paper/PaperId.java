@@ -11,6 +11,9 @@ import java.util.Objects;
 class PaperId implements ValueObject<PaperId> {
     private String id;
 
+    public PaperId(String s) {
+    }
+
     @Override
     public boolean sameValueAs(PaperId other) {
         return equals(other);
